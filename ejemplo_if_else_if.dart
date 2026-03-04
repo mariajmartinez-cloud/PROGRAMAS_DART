@@ -1,4 +1,5 @@
 
+import 'dart:io';
 void main(){
   print("¿Puntos?");
   int? num = int.parse(stdin.readLineSync()!);
